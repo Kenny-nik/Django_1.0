@@ -1,13 +1,17 @@
 [tool.poetry]
-name = "django-1-0"
+name = "django"
 version = "0.1.0"
 description = ""
 authors = ["Nikita <nikkitos.pershin.2000@mail.ru>"]
 readme = "README.md"
-packages = [{include = "django_1"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+django = "^5.1.4"
+psycopg2 = "^2.9.10"
+python-dotenv = "^1.0.1"
+ipython = "^8.31.0"
+pillow = "^11.1.0"
 
 
 [build-system]
